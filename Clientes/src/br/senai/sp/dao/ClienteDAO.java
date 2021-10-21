@@ -14,8 +14,8 @@ import br.senai.sp.model.Cliente;
 public class ClienteDAO {
 	
 	private String stringConexao = "jdbc:mysql://localhost/clientes?useTimezone=true&serverTimezone=UTC";
-	private String usuario = "root";
-	private String senha = "root";
+	private String usuario = "nomeDeUsuario";
+	private String senha = "senhaDeUsuario";
 	
 	private Connection conexao = null;
 	
@@ -27,7 +27,7 @@ public class ClienteDAO {
 			System.out.println("Conectou no banco!");
 			return true;
 		}catch(SQLException e1) {
-			System.out.println("Não conectou!");
+			System.out.println("NÃ£o conectou!");
 			return false;
 		}
 
