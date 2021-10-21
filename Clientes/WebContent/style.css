@@ -1,0 +1,49 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	font-weight: 400;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 40px;
+	background-color: white;
+	max-width: 400px;
+	border-radius: 5px;
+}
+
+h2 {
+	margin: 30px;
+	font-weight: 300;
+	font-size: 30px;
+	text-align: center;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	width: 350px;
+	margin: 0 auto;
+}
+
+p {
+	margin-top: 10px;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	margin: 20px;
+	width: auto;
+}
+
+.btn2 {
+	width: 150px;
+}
